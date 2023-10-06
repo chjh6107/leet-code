@@ -1,0 +1,1 @@
+const finalValueAfterOperations = (operations: string[]): number => operations.reduce((acc, curr) => acc + (curr.includes('++') ? 1 : -1) ,0);
