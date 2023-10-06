@@ -1,0 +1,1 @@
+const numJewelsInStones = (jewels: string, stones: string): number => stones.split('').reduce((acc, curr) => acc + (jewels.includes(curr) ? 1 : 0), 0)
