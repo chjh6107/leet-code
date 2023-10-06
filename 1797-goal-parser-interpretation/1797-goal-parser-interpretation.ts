@@ -1,0 +1,1 @@
+const interpret = (command: string): string => command.replaceAll('()','o').replace(/[()]/g, '')
