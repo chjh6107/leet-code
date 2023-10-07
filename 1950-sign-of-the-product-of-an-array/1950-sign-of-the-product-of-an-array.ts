@@ -1,0 +1,1 @@
+const arraySign = (nums: number[]): number => nums.includes(0) ? 0 : Math.sign(nums.reduce((acc, curr) => acc * curr, 1))
